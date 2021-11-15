@@ -1,5 +1,6 @@
 public class Calculator {
         public static int calculate(int firstOperand, int b, char o) {
+            System.out.println("aa");
             switch (o) {
                 case '+':
                     return firstOperand + b;
