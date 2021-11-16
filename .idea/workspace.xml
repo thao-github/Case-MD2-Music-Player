@@ -4,13 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a293cec-0588-4a3b-bdfd-8e74c4541065" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MD2/src/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MD2/src/HomeWork/Staff/Control.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MD2/src/HomeWork/Staff/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MD2/src/HomeWork/Staff/Staff.java" afterDir="false" />
+    <list default="true" id="5a293cec-0588-4a3b-bdfd-8e74c4541065" name="Changes" comment="Homework.worker">
+      <change afterPath="$PROJECT_DIR$/MD2/src/CleanCode/Calculator/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MD2/src/CleanCode/Calculator/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MD2/src/CleanCode/Variables/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MD2/src/CleanCode/Variables/FizzBuzzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MD2/src/HomeWork/Worker/CongNhan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MD2/src/HomeWork/Worker/ControllerNhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MD2/src/HomeWork/Worker/KySu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MD2/src/HomeWork/Worker/MainNhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MD2/src/HomeWork/Worker/NhanVien.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN_QLNV_Tuan2/src/CongNhan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN_QLNV_Tuan2/src/ControllerNhanVien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN_QLNV_Tuan2/src/KySu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN_QLNV_Tuan2/src/MainNhanVien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVN_QLNV_Tuan2/src/NhanVien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MD 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MD 2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MD2/Module-2" beforeDir="false" afterPath="$PROJECT_DIR$/MD2/Module-2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MD2/Module-2/src/Bai1_divisibleBy5.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MD2/Module-2/src/Bai2_SumOfPrimeNumberBetween10and50.java" beforeDir="false" />
@@ -35,12 +46,17 @@
       <change beforePath="$PROJECT_DIR$/MD2/Module-2/src/[2] Loops in Java/interestCalculate.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MD2/Module-2/src/[2] Loops in Java/isPrimeNumber.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MD2/Module-2/src/[2] Loops in Java/theGreatestCommonDivisor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MD2/src/HomeWork/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/MD2/src/HomeWork/BookManagement/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MD2/src/HomeWork/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/MD2/src/HomeWork/BookManagement/Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MD2/src/HomeWork/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/MD2/src/HomeWork/BookManagement/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MD2/src/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MD2/src/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/MD2/src/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MD2/src/HomeWork/BookManagement/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/MD2/src/HomeWork/BookManagement/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tu Anh" beforeDir="false" afterPath="$PROJECT_DIR$/Tu Anh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tu Anh/src/Staff/Control.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tu Anh/src/Staff/Run.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tu Anh/src/Staff/Staff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MD 2/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MD 2/HomeWork/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MD 2/HomeWork/Methods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MD 2/HomeWork/Run.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +91,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="ChangesTree.GroupingKeys" value="module&#10;repository&#10;directory" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -92,11 +112,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MD2/src/HomeWork/Worker" />
       <recent name="$PROJECT_DIR$/MD2/src/HomeWork" />
       <recent name="$PROJECT_DIR$/MD2/src" />
       <recent name="$PROJECT_DIR$/MD2/src/AccessModifier/Staff" />
       <recent name="$PROJECT_DIR$/MD2/src/AccessModifier/Circle" />
-      <recent name="$PROJECT_DIR$/MD2/src/[5] Access modifier, static method, static property " />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -105,7 +125,7 @@
       <recent name="AbstractInterface.Animal" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Run">
+  <component name="RunManager" selected="Application.MainNhanVien">
     <configuration name="AbstractAndInterfaceTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-1.8" />
       <option name="MAIN_CLASS_NAME" value="AbstractInterface.AnimalAndinterfaceEdible.edible.AbstractAndInterfaceTests" />
@@ -127,25 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Point2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inheritance.Point2D.Point2D" />
+    <configuration name="MainNhanVien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork.Worker.MainNhanVien" />
       <module name="MD 2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Inheritance.Point2D.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Point3D (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inheritance.Point2D.Point3D" />
-      <module name="MD 2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Inheritance.Point2D.*" />
+          <option name="PATTERN" value="HomeWork.Worker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,21 +180,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest.testCalculateAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MD 2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CleanCode.Calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CleanCode.Calculator" />
+      <option name="MAIN_CLASS_NAME" value="CleanCode.Calculator.CalculatorTest" />
+      <option name="METHOD_NAME" value="testCalculateAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
       <item itemvalue="Application.AbstractAndInterfaceTests" />
-      <item itemvalue="Application.Point2D" />
-      <item itemvalue="Application.Point3D (1)" />
       <item itemvalue="Application.Demo" />
       <item itemvalue="Application.Run" />
+      <item itemvalue="Application.MainNhanVien" />
+      <item itemvalue="JUnit.CalculatorTest.testCalculateAdd" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainNhanVien" />
+        <item itemvalue="JUnit.CalculatorTest.testCalculateAdd" />
         <item itemvalue="Application.Run" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.AbstractAndInterfaceTests" />
-        <item itemvalue="Application.Point3D (1)" />
-        <item itemvalue="Application.Point2D" />
       </list>
     </recent_temporary>
   </component>
@@ -222,8 +245,19 @@
       <workItem from="1636884004361" duration="590000" />
       <workItem from="1636902479987" duration="229000" />
       <workItem from="1636940015231" duration="279000" />
-      <workItem from="1636940534129" duration="660000" />
+      <workItem from="1636940534129" duration="2384000" />
+      <workItem from="1636943073888" duration="7798000" />
+      <workItem from="1636979692968" duration="8164000" />
+      <workItem from="1637024381699" duration="622000" />
     </task>
+    <task id="LOCAL-00001" summary="cleancode">
+      <created>1636942145337</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636942145337</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,5 +265,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="cleancode" />
+    <MESSAGE value="Homework.worker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework.worker" />
   </component>
 </project>

@@ -24,22 +24,22 @@ public class Run {
 
             switch (choice) {
                 case 1:
-                    book = Methods.Insert(book);
+                    book = Methods.insert(book);
                     break;
                 case 2:
-                    book = Methods.Remove(book);
+                    book = Methods.remove(book);
                     break;
                 case 3:
-                    Methods.Update(book);
+                    Methods.update(book);
                     break;
                 case 4:
-                    Methods.SearchByName(book);
+                    Methods.searchByName(book);
                     break;
                 case 5:
-                    Methods.SortByQuantity(book);
+                    Methods.sortByQuantity(book);
                     break;
                 case 6:
-                    Methods.Show(book);
+                    Methods.show(book);
                     break;
                 case 7:
                     System.exit(0);
