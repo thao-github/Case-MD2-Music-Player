@@ -127,7 +127,6 @@ public class PlaylistController {
                     while (true) {
                         String playlistName = playlistView.inputPlaylistNameToDisplaySongList();
                         Playlist playlist = playlistService.findPlaylistByName(playlistName);
-                        //boolean isPlaylistNull = playlistService.isPlaylistNull(playlist);
                         boolean isPlaylistExist = playlistService.isPlaylistExist(playlistName);
                         if (isPlaylistExist) {
                             playlistService.displaySongsOfAPlaylist(playlist);

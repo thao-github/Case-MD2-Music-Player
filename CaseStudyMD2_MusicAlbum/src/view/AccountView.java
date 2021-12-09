@@ -37,10 +37,6 @@ public class AccountView {
         return new Account(userName, passWord);
     }
 
-    public void alertLoginFail() {
-        System.err.println("Account is NOT exist or UserName/Password is wrong!");
-    }
-
     public Account signup() {
         System.out.println("Enter userName: ");
         String userName = validate.isEmpty();

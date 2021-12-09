@@ -8,7 +8,7 @@ public class Validate {
 
     static Scanner scanner = new Scanner(System.in);
 
-    //name/ user khong duoc trong
+    //name/ user cannot be null
     public String isEmpty() {
         do {
             String name = scanner.nextLine();

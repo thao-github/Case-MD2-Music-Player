@@ -7,13 +7,13 @@ import view.AccountView;
 public class AccountController {
 
     public void managerLogin() {
-        while (true) {
-            AccountService accountService = new AccountService();
-            AccountView accountView = new AccountView();
-            PlaylistController playlistController = new PlaylistController();
-            SongController songController = new SongController();
-            int choice = accountView.menuLogin();
+        AccountService accountService = new AccountService();
+        AccountView accountView = new AccountView();
+        PlaylistController playlistController = new PlaylistController();
+        SongController songController = new SongController();
 
+        while (true) {
+            int choice = accountView.menuLogin();
             switch (choice) {
                 case 1: {
                     Account account = accountView.loginUser();
@@ -26,7 +26,7 @@ public class AccountController {
                         break;
                     } else {
                         accountView.alertAccountNotExist();
-                        accountView.menuLogin();
+                        managerLogin();
                     }
                 }
 
